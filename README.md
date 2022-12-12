@@ -1,5 +1,5 @@
-<h3>Microservices Security with Keycloak</h3>
-<h3>Part 1 : </h3>
+<h1>Microservices Security with Keycloak</h1>
+<h1>Part 1 : </h1>
 <li>Download Keycloak 19</strong>:</li><br>
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k1.JPG">
 
@@ -61,6 +61,6 @@
 <p align="center">
   <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k20.JPG">
 </p>
-<h3>Part 2 : </h3>
-<h2>Secure the Micro services architecture of the Customer-service, Inventory-service and Order-service project in the project <a href="https://github.com/Amina-contact/e-commerce-Micro-services-Spring-Angular">/E-commerce Micro-Services Spring|Angular</a></h2>
+<h1>Part 2 : </h1>
+<h3>Secure the Micro services architecture of the Customer-service, Inventory-service and Order-service project in the project <a href="https://github.com/Amina-contact/e-commerce-Micro-services-Spring-Angular">/E-commerce Micro-Services Spring|Angular</a></h3>
 
