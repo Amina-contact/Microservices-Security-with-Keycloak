@@ -98,17 +98,16 @@ public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
         http.authorizeRequests().antMatchers("/h2-consol/**").permitAll();
         http.headers().frameOptions().disable();
         http.authorizeRequests().anyRequest().authenticated();
-
     }
 } 
 </code></pre>
-<li>Configure authorization</strong>: <code>@PreAuthorize("hasAuthority('ADMIN')")</code> in the Customer Controller</li>
-<li>Testing with ADMIN_Role</strong>:</li>
+<li>Configure authorization</strong>: <code>@PreAuthorize("hasAuthority('ADMIN')")</code> in the Customer Controller</li><br>
+<li>Testing with ADMIN_Role</strong>:</li><br>
 <p align="center">
   <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp1.JPG">
   <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp2.JPG">
 </p>
-<li>Testing with USER_Role</strong>:</li>
+<li>Testing with USER_Role</strong>:</li><br>
 <p align="center">
   <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp3.JPG">
 </p>
