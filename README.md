@@ -23,5 +23,11 @@
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k9.JPG">
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k10.JPG">
 <li>Create roles </strong>:</li><br>
-<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/K11.JPG">
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/K11.JPG">
+</p>
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k12.JPG">
+<li>Assign roles to users </strong>:</li><br>
+<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k13.JPG">
+<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k1.4JPG">
+
