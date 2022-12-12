@@ -102,3 +102,10 @@ public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
     }
 } 
 </code></pre>
+<li>Configure authorization</strong>: <code>@PreAuthorize("hasAuthority('ADMIN')")</code> in the Customer Controller</li>
+<li>Create Security Config</strong>:</li>
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp1.JPG">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp2.JPG">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp3.JPG">
+</p>
