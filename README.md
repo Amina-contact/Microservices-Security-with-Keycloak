@@ -8,7 +8,11 @@
 
 <li>Create an Admin account</strong>:</li>
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k3.JPG">
-<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k4.JPG" class="center">
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k4.JPG" class="center">
+</p>
+
+
 <pre class="notranslate"><code>- Config Server
 - Spring boot Actuator
 - Consul Discovery
