@@ -65,17 +65,7 @@
 <h3>Secure the Micro services architecture of the Customer-service, Inventory-service and Order-service project in the project <a href="https://github.com/Amina-contact/e-commerce-Micro-services-Spring-Angular"> E-commerce Micro-Services Spring|Angular</a></h3>
 <li>Add dependencies</strong>:</li>
 <pre class="notranslate"><code>
-        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-security -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-            <version>2.7.5</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.keycloak/keycloak-spring-boot-starter -->
-        <dependency>
-            <groupId>org.keycloak</groupId>
-            <artifactId>keycloak-spring-boot-starter</artifactId>
-            <version>19.0.2</version>
-        </dependency>
+ -spring-boot-starter-security
+ -keycloak-spring-boot-starter   
 </code></pre>
 
