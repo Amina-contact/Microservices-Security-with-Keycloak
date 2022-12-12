@@ -68,4 +68,14 @@
  -spring-boot-starter-security
  -keycloak-spring-boot-starter   
 </code></pre>
+<li>Create keycloakAdapterConfig</strong>:</li>
+<pre class="notranslate"><code>
+@Configuration
+public class keycloakAdapterConfig {
+    @Bean
+    KeycloakSpringBootConfigResolver springBootConfigResolver(){
+        return new KeycloakSpringBootConfigResolver();
+    }
+}  
+</code></pre>
 
