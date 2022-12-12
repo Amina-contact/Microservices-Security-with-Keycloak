@@ -36,7 +36,7 @@
 <pre class="notranslate">
 - Test authentication with password
 </code></pre><br>
-<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k15.JPG">
+<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/kp1.JPG">
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k16.JPG">
 <pre class="notranslate">
 - Analyze the contents of the two JWT Access Token and Refresh Token
