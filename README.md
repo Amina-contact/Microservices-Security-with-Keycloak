@@ -26,8 +26,38 @@
 <p align="center">
   <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/K11.JPG">
 </p>
-<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k12.JPG">
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k12.JPG">
+</p>
 <li>Assign roles to users </strong>:</li><br>
 <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k13.JPG">
-<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k1.4JPG">
+<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k14.JPG">
+<li>With PostMan </strong>:</li><br>
+<pre class="notranslate">
+- Test authentication with password
+</code></pre><br>
+<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k15.JPG">
+<img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k16.JPG">
+<pre class="notranslate">
+- Analyze the contents of the two JWT Access Token and Refresh Token
+</code></pre><br>
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k17.JPG">
+</p>
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k18.JPG">
+</p>
+<pre class="notranslate">
+- Test authentication with the Refresh Token
+</code></pre><br>
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k19.JPG">
+</p>
+<pre class="notranslate">
+- Test authentication with Client ID and Client Secret
+</code></pre><br>
+<p align="center">
+  <img src="https://github.com/Amina-contact/Microservices-Security-with-Keycloak/blob/master/pictures/k20.JPG">
+</p>
+
 
