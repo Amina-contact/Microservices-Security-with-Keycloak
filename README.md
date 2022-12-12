@@ -63,7 +63,7 @@
 </p>
 <h1>Part 2 : </h1>
 <h3>Secure the Micro services architecture of the Customer-service, Inventory-service and Order-service project in the project <a href="https://github.com/Amina-contact/e-commerce-Micro-services-Spring-Angular"> E-commerce Micro-Services Spring|Angular</a></h3>
-<li>Add dependencies</strong>:</li>
+<li>Add dependencies at pom.xml</strong>:</li>
 <pre class="notranslate"><code>
  -spring-boot-starter-security
  -keycloak-spring-boot-starter   
