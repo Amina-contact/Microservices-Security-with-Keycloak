@@ -78,4 +78,27 @@ public class keycloakAdapterConfig {
     }
 }  
 </code></pre>
+<li>Create Security Config</strong>:</li>
+<pre class="notranslate"><code>
+@KeycloakConfiguration
+@EnableGlobalMethodSecurity(prePostEnabled = true)
+public class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
+    @Override
+    protected SessionAuthenticationStrategy sessionAuthenticationStrategy() {
+        return new RegisterSessionAuthenticationStrategy(new SessionRegistryImpl());
+    }
+    @Override
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception{
+        auth.authenticationProvider(keycloakAuthenticationProvider());
+    }
+    @Override
+    protected void configure(HttpSecurity http) throws Exception{
+        super.configure(http);
+        http.csrf().disable();
+        http.authorizeRequests().antMatchers("/h2-consol/**").permitAll();
+        http.headers().frameOptions().disable();
+        http.authorizeRequests().anyRequest().authenticated();
 
+    }
+} 
+</code></pre>
